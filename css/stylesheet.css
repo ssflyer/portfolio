@@ -1,0 +1,1009 @@
+@media screen and (max-width: 2100px) {
+
+	html {
+		background-color:#FAFFF9;
+	}
+
+	body {
+		margin:0;
+		padding:0;
+		font-family: 'Lato'; 
+		background-color: #FAFFF9;
+		font-size:12pt;
+		color:#33322F;
+	}
+
+	::selection {
+		background: #40B5F5; /* WebKit/Blink Browsers */
+		color:black;
+		}
+
+	::-moz-selection {
+		color:black;
+		background: #40B5F5; /* Gecko Browsers */
+		}
+
+	#intro {
+		font-size:3.5em;
+		margin:auto;
+		margin-top:180px !important;
+		padding-left:10px;
+		width:80%;
+	}
+
+	#linkedin {
+		position:relative;
+	}
+
+	#linkedin a {
+		text-decoration-style: none;
+		text-decoration: none;
+		color:#33322F;
+	}
+
+	#linkedin:after {
+		background-color:black;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 16px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#linkedin:hover:after {
+		width:0;
+	}
+
+	#resume {
+		position: relative;
+	}
+
+	#resume a {
+		text-decoration-style: none;
+		text-decoration: none;
+		color:#33322F;
+	}
+
+	#resume:after {
+		background-color:black;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 16px;
+		margin: auto 0;
+		position: absolute;
+		top: 15px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#resume:hover:after {
+		width:0;
+	}
+
+	#down {
+		width:34%;
+		margin:auto;
+		text-align:center;
+		font-size:0.9em;
+		color:#33322F;
+		margin-top:150px;
+		font-weight:100;
+	}
+
+	#case-studies {
+		margin-top:100px;
+		text-align: center;
+		display: none;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	li a {
+		text-decoration:  none;
+		color:black;
+		-webkit-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+	  	-moz-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+	  	-o-transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+	  	transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+	  	cursor: pointer;
+	}
+
+	li h3 {
+		letter-spacing:5px;
+		font-size:5em;
+		font-weight:300;
+		
+	}
+
+	li a:hover {
+		letter-spacing:35px;
+	}
+
+	#connect {
+		display: none;
+		font-size:2em;
+		width:100%;
+		margin:auto;
+		margin-top:250px;
+		text-align:center;
+		margin-bottom:100px;
+	}
+
+	nav a {
+		font-weight:300;
+		text-decoration: none;
+		text-align: center;
+		padding:10px;
+		font-size:0.6em;
+	}
+
+	nav a:visited {
+		color:#33322F;
+	}
+	
+	#social-email {
+		position: relative;
+	}
+
+	#social-email:after {
+		background-color:black;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 7px;
+		margin: auto 0;
+		position: absolute;
+		top: 5px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:91%;
+		right:12px;
+	}
+
+	#social-email:hover:after {
+		width:0;
+	}
+	/*
+	#social-linkedin {
+		position: relative;
+	}
+
+	#social-linkedin:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 7px;
+		margin: auto 0;
+		position: absolute;
+		top: 4px;
+		transition: width 0.3s ;
+		width:73%;
+		right:16px;
+	}
+
+	#social-linkedin:hover:after {
+		width:0;
+	}
+
+	#social-instagram {
+		position: relative;
+	}
+
+	#social-instagram:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 7px;
+		margin: auto 0;
+		position: absolute;
+		top: 4px;
+		transition: width 0.3s ;
+		width:78%;
+		right:12px;
+	}
+
+	#social-instagram:hover:after {
+		width:0;
+	}
+	*/
+}
+
+
+@media screen and (max-width: 376px) and (max-height:667px) { /*iPhone 6 (Portrait) */
+	
+	#intro {
+		font-size:1.8em;
+		line-height:160%;
+		margin-top:101px !important;
+	}
+
+	#social-email {
+		position: relative;
+	}
+
+	#social-email:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 4px;
+		transition: width 0.3s ;
+		width:70%;
+		right:12px;
+	}
+
+	#social-email:hover:after {
+		width:0;
+	}
+
+	#linkedin a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#linkedin a:hover {
+		border-bottom: 1px solid gray;
+	}
+
+	#resume a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#resume a:hover {
+		border-bottom:1px solid gray;
+	}
+
+	#social-email {
+		color:#2865DB;
+	}
+
+	#linkedin:after {
+		background-color:#2865DB;
+		color:#33322F;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#resume:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#case-studies {
+		font-size:0.4em;
+		width:100%;
+		margin-top:40px;
+	}
+
+	#down {
+		font-size:1.1em;
+	}
+	
+	#case-studies ul {
+		padding-left:0px;
+	}
+
+	li a:hover {
+		letter-spacing:10px;
+	}
+
+	#connect {
+		margin-bottom:180px;
+		margin-top:190px;
+	}
+
+	#social-email {
+		color:#33322F;
+		position: relative;
+		top:150px;
+		padding:0;
+		padding-bottom:3px;
+		border-bottom:1px dashed black;
+	}
+
+	#social-email:hover {
+		border-bottom:1px solid black;
+	}
+
+}
+
+@media screen and (max-width: 736px) and (max-height:414px) { /* iPhone 6 (Landscape) */
+
+	#intro {
+		margin-top:61px !important;
+		line-height:160% !important;
+		font-size:1.8em !important;
+	}
+
+	#down {
+		font-size:1em !important;
+		margin-top:18px !important;
+	}
+
+	#linkedin:after {
+		background-color:#2865DB;
+		color:#33322F;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#resume:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#social-email:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#linkedin a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#linkedin a:hover {
+		border-bottom: 1px solid gray;
+	}
+
+	#resume a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#resume a:hover {
+		border-bottom:1px solid gray;
+	}
+
+	#down {
+		margin-top:44px;
+	}
+
+	#case-studies h3 {
+		font-size:3em;
+	}
+
+	li a:hover {
+		letter-spacing: 20px;
+	}
+
+	#connect {
+		margin-top:10px;
+	}
+
+	#social-email {
+		color:#33322F;
+		position: relative;
+		top:150px;
+		padding:0;
+		margin-bottom:100px;
+		padding-bottom:3px;
+		border-bottom:1px dashed black;
+	}
+
+	#social-email:hover {
+		border-bottom:1px solid black;
+	}
+
+}
+
+@media screen and (max-width: 599px) and (max-height:1200px) { /* iPhone 6 Plus (Portrait) */
+	
+
+	#intro {
+		font-size:1.8em;
+		line-height:190%;
+		margin-top:101px !important;
+	}
+
+	#social-email {
+		position: relative;
+	}
+
+	#social-email:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 4px;
+		transition: width 0.3s ;
+		width:70%;
+		right:12px;
+	}
+
+	#social-email:hover:after {
+		width:0;
+	}
+
+	#linkedin a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#linkedin a:hover {
+		border-bottom: 1px solid gray;
+	}
+
+	#resume a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#resume a:hover {
+		border-bottom:1px solid gray;
+	}
+
+	#social-email {
+		color:#2865DB;
+	}
+
+	#linkedin:after {
+		background-color:#2865DB;
+		color:#33322F;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#resume:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#case-studies {
+		font-size:0.4em;
+		width:100%;
+		margin-top:40px;
+	}
+
+	#down {
+		font-size:1.1em;
+		margin-top:99px;
+	}
+	
+	#case-studies ul {
+		padding-left:0px;
+	}
+
+	li a:hover {
+		letter-spacing:10px;
+	}
+
+	#connect {
+		margin-bottom:180px;
+		margin-top:190px;
+	}
+
+	#social-email {
+		color:#33322F;
+		position: relative;
+		top:150px;
+		padding:0;
+		padding-bottom:3px;
+		border-bottom:1px dashed black;
+	}
+
+	#social-email:hover {
+		border-bottom:1px solid black;
+	}
+}
+
+
+
+@media screen and (max-width:320px) and (max-height:568px) { /* iPhone 5 (Portrait) */
+
+	#intro {
+		line-height: 150%;
+		margin-top:60px !important;
+	}
+
+	li a {
+		letter-spacing: 2px;
+	}
+
+	li a:hover {
+		letter-spacing: 8px;
+	}
+
+}
+
+@media screen and (max-width:568px) and (max-height:320px) { /* iPhone 5 (Landscape) */
+
+	#intro {
+		margin-top:90px !important;
+		font-size:1.2em;
+	}
+
+	#linkedin:after {
+		background-color:#2865DB;
+		color:#33322F;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#resume:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#social-email:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#linkedin a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#linkedin a:hover {
+		border-bottom: 1px solid gray;
+	}
+
+	#resume a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#resume a:hover {
+		border-bottom:1px solid gray;
+	}
+
+	#down {
+		margin-top:50px;
+	}
+
+	#case-studies h3 {
+		font-size:3em;
+	}
+
+	li a:hover {
+		letter-spacing: 10px;
+	}
+
+	#connect {
+		margin-top:10px;
+	}
+
+	#social-email {
+		color:#33322F;
+		position: relative;
+		top:150px;
+		padding:0;
+		margin-bottom:100px;
+		padding-bottom:3px;
+		border-bottom:1px dashed black;
+	}
+
+	#social-email:hover {
+		border-bottom:1px solid black;
+	}
+}	
+
+
+@media only screen 
+and (min-width :600px) 
+and (max-width : 1024px)  {
+
+	#intro {
+		font-size:3.5em;
+		line-height:140%;
+		margin-top:114px !important;
+	}
+
+	#social-email {
+		position: relative;
+	}
+
+	#social-email:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 4px;
+		transition: width 0.3s ;
+		width:70%;
+		right:12px;
+	}
+
+	#social-email:hover:after {
+		width:0;
+	}
+
+	#linkedin a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#linkedin a:hover {
+		border-bottom: 1px solid gray;
+	}
+
+	#resume a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#resume a:hover {
+		border-bottom:1px solid gray;
+	}
+
+	#social-email {
+		color:#2865DB;
+	}
+
+	#linkedin:after {
+		background-color:#2865DB;
+		color:#33322F;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#resume:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#case-studies {
+		font-size:0.4em;
+		width:100%;
+		margin-top:40px;
+	}
+
+	#down {
+		font-size:2em;
+		margin-top:50px;
+	}
+	
+	#case-studies ul {
+		padding-left:0px;
+	}
+
+	li a {
+		font-size:2em;
+	}
+
+	li a:hover {
+		letter-spacing:15px;
+	}
+
+	#connect {
+		margin-bottom:180px;
+		margin-top:190px;
+	}
+
+	#social-email {
+		color:#33322F;
+		position: relative;
+		top:150px;
+		padding:0;
+		padding-bottom:3px;
+		border-bottom:1px dashed black;
+	}
+
+	#social-email:hover {
+		border-bottom:1px solid black;
+	}
+
+}
+/*
+@media screen and (max-width:1024px) and (max-height:768px) {
+
+	#intro {
+		font-size:3em !important;
+		line-height:140%;
+		margin-top:101px !important;
+	}
+
+	#social-email {
+		position: relative;
+	}
+
+	#social-email:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 4px;
+		transition: width 0.3s ;
+		width:70%;
+		right:12px;
+	}
+
+	#social-email:hover:after {
+		width:0;
+	}
+
+	#linkedin a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#linkedin a:hover {
+		border-bottom: 1px solid gray;
+	}
+
+	#resume a {
+		color:#33322F;
+		border-bottom: 1px dashed black;
+	}
+
+	#resume a:hover {
+		border-bottom:1px solid gray;
+	}
+
+	#social-email {
+		color:#2865DB;
+	}
+
+	#linkedin:after {
+		background-color:#2865DB;
+		color:#33322F;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#resume:after {
+		background-color:#2865DB;
+		bottom: 1px;
+		content: "";
+		display: block;
+		height: 0px;
+		margin: auto 0;
+		position: absolute;
+		top: 9px;
+		transition: width 0.3s cubic-bezier(1, 0, 0, 1);
+		-webkit-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-moz-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		-o-transition:width 0.3s cubic-bezier(1, 0, 0, 1);
+		width:96%;
+		right:11px;
+	}
+
+	#case-studies {
+		font-size:0.4em;
+		width:100%;
+		margin-top:40px;
+	}
+
+	#down {
+		font-size:1.1em;
+	}
+	
+	#case-studies ul {
+		padding-left:0px;
+	}
+
+	li a {
+		font-size:2em;
+	}
+
+	li a:hover {
+		letter-spacing:15px;
+	}
+
+	#connect {
+		margin-bottom:180px;
+		margin-top:190px;
+	}
+
+	#social-email {
+		color:#33322F;
+		position: relative;
+		top:150px;
+		padding:0;
+		padding-bottom:3px;
+		border-bottom:1px dashed black;
+	}
+
+	#social-email:hover {
+		border-bottom:1px solid black;
+	}
+}
+
+*/
+
+
+@media screen and (min-height: 800px)
+and (min-width: 1200px) 
+  {
+	
+	#intro {
+		font-size:4em;
+	}
+
+	#down {
+		margin-top:110px !important;
+	}
+
+}
+
+@media screen and (min-height: 900px)and (min-width: 1200px) 
+ {
+	
+	#intro {
+		font-size:4.5em;
+	}
+
+}
