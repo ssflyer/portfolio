@@ -3,18 +3,39 @@ $(function(){
 				$('#intro2').hide().delay(1100).fadeIn(500);
 				$('#down').hide().delay(1400).fadeIn(400);
 				/// Scroll down 
-				$(window).scroll(function(){
-					$('#intro').css("opacity",1-$(window).scrollTop()/300);
+				$(window).scroll(function () {
+				  var scrollTop = $(window).scrollTop();
+				  // you must put a condition so the value of 
+				  //opacity remain between 0 and 1
+				  // when viewing you website source code 
+				  //from "Mozilla DOM Inspector" or any other dev tools
+				  // you can see the the opacity is 
+				  // between -6 and 6 witch are not valid value for opacity property
+				  // so the arrow isn't shown 
+				  if (scrollTop <= 300) {
+				    $('#intro').css('opacity', 1 - scrollTop / 300);
+				  }
+				
+				  // same for here
+				  if (scrollTop <= 150) {
+				    $('#arrow').css('opacity', scrollTop / 150); 
+				    // "scrollTop/150" NOT "1 - ScrollTop/150" witch 
+				    // will produce the opposite of what you want
+				  }
+				
+				  // You have to put the value of fadeIn to 3 seconds 
+				  // so the user can notice the effect 
+				  //fadeIn(3000)
+				
+				  if (scrollTop > 50) {
+				    $('#case-studies,#connect').fadeIn(3000);
+				  } else {
+				    $('#case-studies,#connect').fadeOut();
+				  }
+				
 				});
-				$(window).scroll(function(){
-					$('#arrow').css("opacity",1-$(window).scrollTop()/100);
-				});
-				$(window).scroll(function(){
-					if($(this).scrollTop()>50){
-						$('#case-studies,#connect').fadeIn(); 
-					} else {
-						$('#case-studies,#connect').fadeOut();
-					}
+
+			
 				/// Scroll back to top
 				$("a[href='#case-studies']").click(function() {
 	  			$("html, body").animate({ scrollTop: 0 }, "slow");
